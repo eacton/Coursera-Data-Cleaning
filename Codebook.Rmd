@@ -1,0 +1,299 @@
+Course Project Codebook 
+============================
+Human Activity Recognition Using Smartphones Tidy Data Set  
+=====================================================================================
+By Erica Acton
+---------------------------------------------------------------------------------------
+Information for the Codebook is laid out as follows for each column:
+
+[Column Number]  "Column Name"  Variable Field Width   
+Description   
+Variable Range.  Class.
+
+[1] "subject_id"   2   
+Unique subject identifier   
+1-30. Integer.
+        
+[2] "activity"   18   
+Each subject had measurements taken during the following 6 activities:   
+1. WALKING   
+2. WALKING_UPSTAIRS   
+3. WALKING_DOWNSTAIRS   
+4. SITTING   
+5. STANDING   
+6. LAYING   
+Factor.
+        
+[3] time_body_acceleration_signal_mean_x_axis   9   
+The average of the means of the time domain signal of the body acceleration in the x-axis (in xyz space) direction.   
+0.2215982-0.3014610. Numeric.
+          
+[4] time_body_acceleration_signal_mean_y_axis   12   
+The average of the means of the time domain signal of the body acceleration in the y-axis (in xyz space) direction.   
+-0.040513953 -0.001308288. Numeric.
+        
+[5] time_body_acceleration_signal_mean_z_axis   11   
+The average of the means of the time domain signal of the body acceleration in the z-axis (in xyz space) direction.   
+-0.15251390 -0.07537847. Numeric.
+        
+[6] "time_gravity_acceleration_signal_mean_x_axis   10   
+The average of the means of the time domain signal of the gravity acceleration in the x-axis (in xyz space) direction.   
+-0.6800432  0.9745087. Numeric.
+        
+[7] "time_gravity_acceleration_signal_mean_y_axis   12   
+The average of the means of the time domain signal of the gravity acceleration in the y-axis (in xyz space) direction.   
+-0.4798948  0.9565938. Numeric.
+        
+[8] "time_gravity_acceleration_signal_mean_z_axis   12   
+The average of the means of the time domain signal of the gravity acceleration in the z-axis (in xyz space) direction.   
+-0.4950887  0.9578730. Numeric.
+        
+[9] "time_body_acceleration_jerk_signal_mean_x_axis   10   
+The average of the means of the time domain jerk signal of the body acceleration in the x-axis (in xyz space) direction.   
+-0.0426881 0.1301930. Numeric.
+        
+[10] "time_body_acceleration_jerk_signal_mean_y_axis   13   
+The average of the means of the time domain jerk signal of the body acceleration in the y-axis (in xyz space) direction.   
+-0.03868721  0.05681859. Numeric.
+        
+[11] "time_body_acceleration_jerk_signal_mean_z_axis   13   
+The average of the means of the time domain jerk signal of the body acceleration in the z-axis (in xyz space) direction.   
+-0.06745839  0.03805336. Numeric.
+        
+[12] "time_body_gyroscope_signal_mean_x_axis"   13   
+The average of the means of the time domain signal of the body angular velocity in the x-axis (in xyz space) direction.   
+-0.2057754  0.1927045. Numeric.
+        
+[13] "time_body_gyroscope_signal_mean_y_axis"   12   
+The average of the means of the time domain signal of the body angular velocity in the y-axis (in xyz space) direction.   
+-0.20420536  0.02747076. Numeric.
+        
+[14] "time_body_gyroscope_signal_mean_z_axis"   13   
+The average of the means of the time domain signal of the body angular velocity in the z-axis (in xyz space) direction.   
+-0.0724546  0.1791021. Numeric.
+        
+[15] "time_body_gyroscope_jerk_signal_mean_x_axis"   11   
+The average of the means of the time domain jerk signal of the body angular velocity in the x-axis (in xyz space) direction.   
+-0.15721254 -0.02209163. Numeric.
+        
+[16] "time_body_gyroscope_jerk_signal_mean_y_axis"   11   
+The average of the means of the time domain jerk signal of the body angular velocity in the y-axis (in xyz space) direction.   
+-0.07680899 -0.01320228. Numeric.
+        
+[17] "time_body_gyroscope_jerk_signal_mean_z_axis"   12   
+The average of the means of the time domain jerk signal of the body angular velocity in the z-axis (in xyz space) direction.   
+-0.092499853 -0.006940664. Numeric.
+       
+[18] "time_body_acceleration_magnitude_signal_mean"   13   
+The average of the means of the magnitudes of the time domain signal of the body acceleration in the xyz space.   
+-0.9864932  0.6446043. Numeric.
+        
+[19] "time_gravity_acceleration_magnitude_signal_mean"   13   
+The average of the means of the magnitudes of the time domain signal of the gravity acceleration in the xyz space.   
+-0.9864932  0.6446043. Numeric.
+        
+[20] "time_body_acceleration_jerk_magnitude_signal_mean"   12   
+The average of the means of the magnitudes of the time domain jerk signal of the body acceleration in the xyz space.   
+-0.9928147  0.4344904. Numeric.
+        
+[21] "time_body_gyroscope_magnitude_signal_mean"   12   
+The average of the means of the magnitudes of the time domain signal of the body angular velocity in the xyz space.   
+-0.9807408  0.4180046. Numeric.
+        
+[22] "time_body_gyroscope_jerk_magnitude_signal_mean"   11   
+The average of the means of the magnitudes of the time domain jerk signal of the body angular velocity in the xyz space.   
+-0.99732253  0.08758166. Numeric.
+        
+[23] "frequency_body_acceleration_signal_mean_x_axis"   11   
+The average of the means of the frequency domain signal of the body acceleration in the x-axis (in xyz space) direction.   
+-0.9952499  0.5370120. Numeric.
+        
+[24] "frequency_body_acceleration_signal_mean_y_axis"   12   
+The average of the means of the frequency domain signal of the body acceleration in the y-axis (in xyz space) direction.   
+-0.9890343  0.5241877. Numeric.
+        
+[25] "frequency_body_acceleration_signal_mean_z_axis"   11   
+The average of the means of the frequency domain signal of the body acceleration in the z-axis (in xyz space) direction.   
+-0.9894739  0.2807360. Numeric.
+        
+[26] "frequency_body_acceleration_jerk_signal_mean_x_axis"   12   
+The average of the means of the frequency domain jerk signal of the body acceleration in the x-axis (in xyz space) direction.   
+-0.9946308  0.4743173. Numeric.
+       
+[27] "frequency_body_acceleration_jerk_signal_mean_y_axis"   12   
+The average of the means of the frequency domain jerk signal of the body acceleration in the y-axis (in xyz space) direction.   
+-0.9893988  0.2767169. Numeric.
+        
+[28] "frequency_body_acceleration_jerk_signal_mean_z_axis"   11   
+The average of the means of the frequency domain jerk signal of the body acceleration in the z-axis (in xyz space) direction.   
+-0.9920184  0.1577757. Numeric.
+        
+[29] "frequency_body_gyroscope_signal_mean_x_axis"   11   
+The average of the means of the frequency domain signal of the body angular velocity in the x-axis (in xyz space) direction.   
+-0.9931226  0.4749624. Numeric.
+        
+[30] "frequency_body_gyroscope_signal_mean_y_axis"   11   
+The average of the means of the frequency domain signal of the body angular velocity in the y-axis (in xyz space) direction.   
+-0.9940255  0.3288170. Numeric.
+        
+[31] "frequency_body_gyroscope_signal_mean_z_axis"   11   
+The average of the means of the frequency domain signal of the body angular velocity in the z-axis (in xyz space) direction.   
+-0.9859578  0.4924144. Numeric.
+        
+[32] "frequency_body_acceleration_magnitude_signal_mean"   12   
+The average of the means of the magnitudes of the frequency domain signal of the body acceleration in the xyz space.   
+-0.9868006  0.5866376. Numeric.
+        
+[33] "frequency_body_acceleration_jerk_magnitude_signal_mean"   13   
+The average of the means of the magnitudes of the frequency jerk domain signal of the body acceleration in the xyz space.   
+-0.9939983  0.5384048. Numeric.
+        
+[34] "frequency_body_gyroscope_magnitude_signal_mean"   13   
+The average of the means of the magnitudes of the frequency domain signal of the body angular velocity in the xyz space.   
+-0.9865352  0.2039798. Numeric.
+        
+[35] "frequency_body_gyroscope_jerk_magnitude_signal_mean"   11   
+The average of the means of the magnitudes of the frequency domain jerk signal of the body angular velocity in the xyz space.   
+-0.9976174  0.1466186. Numeric.
+        
+[36] "time_body_acceleration_signal_standard_deviation_x_axis"   12   The average of the standard deviations of the time domain signal of the body acceleration in the x-axis (in xyz space) direction.   
+-0.9960686  0.6269171. Numeric.
+        
+[37] "time_body_acceleration_signal_standard_deviation_y_axis"   12   
+The average of the standard deviations of the time domain signal of the body acceleration in the y-axis (in xyz space) direction.   
+-0.9902409  0.6169370. Numeric.
+       
+[38] "time_body_acceleration_signal_standard_deviation_z_axis"   11   
+The average of the standard deviations of the time domain signal of the body acceleration in the z-axis (in xyz space) direction.   
+-0.9876587  0.6090179. Numeric.
+        
+[39] "time_gravity_acceleration_signal_standard_deviation_x_axis"   10   
+The average of the standard deviations of the time domain signal of the gravity acceleration in the x-axis (in xyz space) direction.   
+-0.9967642 -0.8295549. Numeric.
+        
+[40] "time_gravity_acceleration_signal_standard_deviation_y_axis"   10   
+The average of the standard deviations of the time domain signal of the gravity acceleration in the y-axis (in xyz space) direction.   
+-0.9942476 -0.6435784. Numeric.
+         
+[41] "time_gravity_acceleration_signal_standard_deviation_z_axis"   10  
+The average of the standard deviations of the time domain signal of the gravity acceleration in the z-axis (in xyz space) direction.   
+-0.9909572 -0.6101612. Numeric.
+         
+[42] "time_body_acceleration_jerk_signal_standard_deviation_x_axis"   12   
+The average of the standard deviations of the time domain jerk signal of the body acceleration in the x-axis (in xyz space) direction.   
+-0.9946045  0.5442730. Numeric.
+        
+[43] "time_body_acceleration_jerk_signal_standard_deviation_y_axis"   12   
+The average of the standard deviations of the time domain jerk signal of the body acceleration in the y-axis (in xyz space) direction.   
+-0.9895136  0.3553067. Numeric.
+        
+[44] "time_body_acceleration_jerk_signal_standard_deviation_z_axis"   11   
+The average of the standard deviations of the time domain jerk signal of the body acceleration in the z-axis (in xyz space) direction.   
+-0.99328831  0.03101571. Numeric.
+        
+[45] "time_body_gyroscope_signal_standard_deviation_x_axis"   10   
+The average of the standard deviations of the time domain signal of the body angular velocity in the x-axis (in xyz space) direction.   
+-0.9942766  0.2676572. Numeric.
+        
+[46] "time_body_gyroscope_signal_standard_deviation_y_axis"   12   
+The average of the standard deviations of the time domain signal of the body angular velocity in the y-axis (in xyz space) direction.   
+-0.9942105  0.4765187. Numeric.
+        
+[47] "time_body_gyroscope_signal_standard_deviation_z_axis"   11   
+The average of the standard deviations of the time domain signal of the body angular velocity in the z-axis (in xyz space) direction.   
+-0.9855384  0.5648758. Numeric.
+        
+[48] "time_body_gyroscope_jerk_signal_standard_deviation_x_axis"   11   
+The average of the standard deviations of the time domain jerk signal of the body angular velocity in the x-axis (in xyz space) direction.   
+-0.9965425  0.1791486. Numeric.
+        
+[49] "time_body_gyroscope_jerk_signal_standard_deviation_y_axis"   11   
+The average of the standard deviations of the time domain jerk signal of the body angular velocity in the y-axis (in xyz space) direction.   
+-0.9970816  0.2959459. Numeric.
+       
+[50] "time_body_gyroscope_jerk_signal_standard_deviation_z_axis"   12  
+The average of the standard deviations of the time domain jerk signal of the body angular velocity in the z-axis (in xyz space) direction.   
+-0.9953808  0.1932065. Numeric.
+        
+[51] "time_body_acceleration_magnitude_signal_standard_deviation"   11   
+The average of the standard deviations of the magnitudes of the time domain signal of the body acceleration in the xyz space.   
+-0.9864645  0.4284059. Numeric.
+         
+[52] "time_gravity_acceleration_magnitude_signal_standard_deviation"   11   
+The average of the standard deviations of the magnitudes of the time domain signal of the gravity acceleration in the xyz space.   
+-0.9864645  0.4284059. Numeric.
+        
+[53] "time_body_acceleration_jerk_magnitude_signal_standard_deviation"   11   
+The average of the standard deviations of the magnitudes of the time domain jerk signal of the body acceleration in the xyz space.   
+-0.9946469  0.4506121. Numeric.
+        
+[54] "time_body_gyroscope_magnitude_signal_standard_deviation"   11   
+The average of the standard deviations of the magnitudes of the time domain signal of the body angular velocity in the xyz space.   
+-0.9813727  0.2999760. Numeric.
+       
+[55] "time_body_gyroscope_jerk_magnitude_signal_standard_deviation"   11   
+The average of the standard deviations of the magnitudes of the time domain jerk signal of the body angular velocity in the xyz space.   
+-0.9976661  0.2501732. Numeric.
+        
+[56] "frequency_body_acceleration_signal_standard_deviation_x_axis"   12   
+The average of the standard deviations of the frequency domain signal of the body acceleration in the x-axis (in xyz space) direction.   
+-0.9966046  0.6585065. Numeric.
+        
+[57] "frequency_body_acceleration_signal_standard_deviation_y_axis"   12   
+The average of the standard deviations of the frequency domain signal of the body acceleration in the y-axis (in xyz space) direction.   
+-0.9906804  0.5601913. Numeric.
+         
+[58] "frequency_body_acceleration_signal_standard_deviation_z_axis"   11   
+The average of the standard deviations of the frequency domain signal of the body acceleration in the z-axis (in xyz space) direction.   
+-0.9872248  0.6871242. Numeric.
+         
+[59] "frequency_body_acceleration_jerk_signal_standard_deviation_x_axis"   12   
+The average of the standard deviations of the frequency domain jerk signal of the body acceleration in the x-axis (in xyz space) direction.   
+-0.9950738  0.4768039. Numeric.
+        
+[60] "frequency_body_acceleration_jerk_signal_standard_deviation_y_axis"   12   
+The average of the standard deviations of the frequency domain jerk signal of the body acceleration in the y-axis (in xyz space) direction.   
+-0.9904681  0.3497713. Numeric.
+        
+[61] "frequency_body_acceleration_jerk_signal_standard_deviation_z_axis"   12   
+The average of the standard deviations of the frequency domain jerk signal of the body acceleration in the z-axis (in xyz space) direction.   
+-0.993107760 -0.006236475. Numeric.
+       
+[62] "frequency_body_gyroscope_signal_standard_deviation_x_axis"   10   
+The average of the standard deviations of the frequency domain signal of the body angular velocity in the x-axis (in xyz space) direction.   
+-0.9946522  0.1966133. Numeric.
+        
+[63] "frequency_body_gyroscope_signal_standard_deviation_y_axis"   11   
+The average of the standard deviations of the frequency domain signal of the body angular velocity in the y-axis (in xyz space) direction.   
+-0.9943531  0.6462336. Numeric.
+        
+[64] "frequency_body_gyroscope_signal_standard_deviation_z_axis"   11   
+The average of the standard deviations of the frequency domain signal of the body angular velocity in the z-axis (in xyz space) direction.   
+-0.9867253  0.5224542. Numeric.
+        
+[65] "frequency_body_acceleration_magnitude_signal_standard_deviation"   13   
+The average of the standard deviations of the magnitudes of the freqency domain signal of the body acceleration in the xyz space.   
+-0.9876485  0.1786846. Numeric.
+       
+[66] "frequency_body_acceleration_jerk_magnitude_signal_standard_deviation"   11   
+The average of the standard deviations of the magnitudes of the freqency domain signal of the body acceleration in the xyz space.   
+-0.9943667  0.3163464. Numeric.
+         
+[67] "frequency_body_gyroscope_magnitude_signal_standard_deviation"   11   
+The average of the standard deviations of the magnitudes of the freqency domain signal of the body angular velocity in the xyz space.   
+-0.9814688  0.2366597. Numeric.
+        
+[68] "frequency_body_gyroscope_jerk_magnitude_signal_standard_deviation"   11   
+The average of the standard deviations of the magnitudes of the freqency domain jerk signal of the body angular velocity in the xyz space.
+-0.9975852  0.2878346. Numeric.
+
+An example of how variables were obtained:
+```
+names(averagedDat[,3]) #column names
+range(averagedDat[,3]) #variable range
+class(averagedDat[,3]) #class
+width <- apply(apply(averagedDat,2,nchar),2,max)  #variable field width
+```
+
+
+
